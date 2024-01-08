@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_client_template">
+    <sys_email_client_template action="INSERT_OR_UPDATE">
+        <blind_copied/>
+        <body/>
+        <body_html/>
+        <condition/>
+        <content_type>text/html</content_type>
+        <copied>watch_list</copied>
+        <email_client_from_address/>
+        <from/>
+        <from_generation_type/>
+        <include_attachments>false</include_attachments>
+        <name>reply-for-luco-case</name>
+        <order>90</order>
+        <recipients>contact.email</recipients>
+        <reply_to/>
+        <script_from><![CDATA[(function (fromAddressQuery, targetRecord) {
+		/**
+		 * fromAddressQuery: A GlideRecord on the table "sys_email_client_from_address". Add conditions to filter the
+		 * 		the email addresses displayed in the Email Client. 
+		 * targetRecord: A GlideRecord representing the record in which the Email Client was opened from
+		 */
+
+})(fromAddressQuery, targetRecord);]]></script_from>
+        <subject>${number} - ${short_description}</subject>
+        <sys_class_name>sys_email_client_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 06:40:37</sys_created_on>
+        <sys_id>8a8ab82293a33110a1f53c9efaba104e</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>reply-for-luco-case</sys_name>
+        <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Luco Case Management">5afe2bce93073110a1f53c9efaba10bc</sys_scope>
+        <sys_update_name>sys_email_client_template_8a8ab82293a33110a1f53c9efaba104e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 10:10:08</sys_updated_on>
+        <table>x_1090111_luco_cas_luco_case</table>
+    </sys_email_client_template>
+</record_update>
