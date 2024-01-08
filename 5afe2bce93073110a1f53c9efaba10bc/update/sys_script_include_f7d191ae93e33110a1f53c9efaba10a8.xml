@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1090111_luco_cas.EmailRecipient</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>EmailRecipient</name>
+        <script><![CDATA[var EmailRecipient = Class.create();
+EmailRecipient.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getWatchListRecipients: function() {
+        var emailAddresses = [];
+        emailAddresses.push("test@example.com");
+        emailAddresses.push("test1@example.com");
+        // emailAddresses.push(current.assigned_to.email);
+        return emailAddresses.join();
+	},
+    type: 'EmailRecipient'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 08:21:10</sys_created_on>
+        <sys_id>f7d191ae93e33110a1f53c9efaba10a8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>EmailRecipient</sys_name>
+        <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Luco Case Management">5afe2bce93073110a1f53c9efaba10bc</sys_scope>
+        <sys_update_name>sys_script_include_f7d191ae93e33110a1f53c9efaba10a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 08:24:40</sys_updated_on>
+    </sys_script_include>
+</record_update>
