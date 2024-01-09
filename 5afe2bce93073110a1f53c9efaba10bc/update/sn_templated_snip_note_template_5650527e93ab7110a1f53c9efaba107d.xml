@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_templated_snip_note_template">
+    <sn_templated_snip_note_template action="INSERT_OR_UPDATE">
+        <condition/>
+        <group_visibility/>
+        <html_script_body><![CDATA[<p>&nbsp;</p>
+<style>
+  	*{
+    	font-family: 'Roboto';font-size: 12px;
+	}
+</style>
+<p>Hi ${contact},</p>
+<p>&nbsp;</p>
+<p>Your subscription to ${product} is expiring soon. To continue enjoying uninterrupted service, please renew your subscription by [expiration date]. You can renew easily from your account settings or contact our support team for assistance.</p>
+<p>&nbsp;</p>
+<p>Best regards,</p>
+<p>${assigned_to.first_name}</p>
+<p>${assigned_to.title}</p>
+<p>Luco Helpdesk Customer Support Team</p>
+<p>&nbsp;</p>]]></html_script_body>
+        <name>Subscription Renewal Remainder</name>
+        <short_name>subscription_renewal_remainder</short_name>
+        <sys_class_name>sn_templated_snip_note_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-09 07:31:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5650527e93ab7110a1f53c9efaba107d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Subscription Renewal Remainder</sys_name>
+        <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Luco Case Management">5afe2bce93073110a1f53c9efaba10bc</sys_scope>
+        <sys_update_name>sn_templated_snip_note_template_5650527e93ab7110a1f53c9efaba107d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 10:26:43</sys_updated_on>
+        <table>x_1090111_luco_cas_luco_case</table>
+    </sn_templated_snip_note_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=5650527e93ab7110a1f53c9efaba107d"/>
+</record_update>
