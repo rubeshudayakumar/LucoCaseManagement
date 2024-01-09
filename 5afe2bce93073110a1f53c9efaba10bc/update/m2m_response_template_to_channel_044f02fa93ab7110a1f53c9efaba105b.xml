@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_response_template_to_channel">
+    <m2m_response_template_to_channel action="INSERT_OR_UPDATE">
+        <channel display_value="Chat">33a9050c3b4300105a18802b13efc437</channel>
+        <response_template display_value="Product Inquiry">0b5e8eba93ab7110a1f53c9efaba106e</response_template>
+        <sys_class_name>m2m_response_template_to_channel</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-09 07:25:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>044f02fa93ab7110a1f53c9efaba105b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Chat.Product Inquiry</sys_name>
+        <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Luco Case Management">5afe2bce93073110a1f53c9efaba10bc</sys_scope>
+        <sys_update_name>m2m_response_template_to_channel_044f02fa93ab7110a1f53c9efaba105b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 07:25:27</sys_updated_on>
+    </m2m_response_template_to_channel>
+</record_update>
