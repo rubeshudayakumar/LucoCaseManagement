@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_templated_snip_note_template">
+    <sn_templated_snip_note_template action="INSERT_OR_UPDATE">
+        <condition/>
+        <group_visibility/>
+        <html_script_body><![CDATA[<p>&nbsp;</p>
+<style>
+  	*{
+    	font-family: 'Roboto';font-size: 12px;
+	}
+</style>
+<p>Hi ${contact},</p>
+<p>&nbsp;</p>
+<p>I'm sorry to hear you're experiencing difficulties with [Issue/Feature]. To better assist you, could you provide more details or screenshots? Our team is ready to help, and we'll work together to resolve this promptly.</p>
+<p>&nbsp;</p>
+<p>Thanks for your patience!</p>
+<p>${assigned_to.first_name}</p>
+<p>${assigned_to.title}</p>
+<p>Luco Helpdesk Customer Support Team</p>]]></html_script_body>
+        <name>Technical Support Request</name>
+        <short_name>technical_support_request</short_name>
+        <sys_class_name>sn_templated_snip_note_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-09 07:29:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>199f8a3e93ab7110a1f53c9efaba1050</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Technical Support Request</sys_name>
+        <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Luco Case Management">5afe2bce93073110a1f53c9efaba10bc</sys_scope>
+        <sys_update_name>sn_templated_snip_note_template_199f8a3e93ab7110a1f53c9efaba1050</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 10:27:02</sys_updated_on>
+        <table>x_1090111_luco_cas_luco_case</table>
+    </sn_templated_snip_note_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=199f8a3e93ab7110a1f53c9efaba1050"/>
+</record_update>
