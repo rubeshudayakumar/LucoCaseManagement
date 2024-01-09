@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_templated_snip_note_template">
+    <sn_templated_snip_note_template action="INSERT_OR_UPDATE">
+        <condition/>
+        <group_visibility/>
+        <html_script_body><![CDATA[<p>&nbsp;</p>
+<style>
+  	*{
+    	font-family: 'Roboto';font-size: 12px;
+	}
+</style>
+<p>Hi ${contact},</p>
+<p>To ensure the security of your data, we're implementing a mandatory security update for ${product}. Please follow the instructions provided [link] to complete the update. If you have questions, our support team is ready to assist.</p>
+<p>&nbsp;</p>
+<p>Stay secure!</p>
+<p>${assigned_to.first_name}</p>
+<p>${assigned_to.title}</p>
+<p>Luco Helpdesk Customer Support Team</p>]]></html_script_body>
+        <name>Security Update Announcement</name>
+        <short_name>security_update</short_name>
+        <sys_class_name>sn_templated_snip_note_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-09 07:19:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a9ddc6ba93ab7110a1f53c9efaba10af</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Security Update Announcement</sys_name>
+        <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Luco Case Management">5afe2bce93073110a1f53c9efaba10bc</sys_scope>
+        <sys_update_name>sn_templated_snip_note_template_a9ddc6ba93ab7110a1f53c9efaba10af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 10:27:44</sys_updated_on>
+        <table>x_1090111_luco_cas_luco_case</table>
+    </sn_templated_snip_note_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=a9ddc6ba93ab7110a1f53c9efaba10af"/>
+</record_update>
