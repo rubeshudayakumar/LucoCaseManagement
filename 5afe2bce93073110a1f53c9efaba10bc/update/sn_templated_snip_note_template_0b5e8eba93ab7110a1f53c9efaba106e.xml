@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_templated_snip_note_template">
+    <sn_templated_snip_note_template action="INSERT_OR_UPDATE">
+        <condition/>
+        <group_visibility/>
+        <html_script_body><![CDATA[<p>&nbsp;</p>
+<style>
+  	*{
+    	font-family: 'Roboto';font-size: 12px;
+	}
+</style>
+<p>Dear ${contact},</p>
+<p>&nbsp;</p>
+<p>Thank you for your inquiry about ${product}. We appreciate your interest in our product.</p>
+<p>&nbsp;</p>
+<p>To provide you with the most accurate information, could you please clarify (specific details or questions the customer asked)? Once we have this information, we'll be happy to assist you further.</p>
+<p>&nbsp;</p>
+<p>If you have any additional questions or need assistance with anything else, feel free to reach out.</p>
+<p>&nbsp;</p>
+<p>Best regards,</p>
+<p>Luco Helpdesk Customer Support Team</p>
+<p>&nbsp;</p>]]></html_script_body>
+        <name>Product Inquiry</name>
+        <short_name>product_inquiry</short_name>
+        <sys_class_name>sn_templated_snip_note_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-09 07:25:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0b5e8eba93ab7110a1f53c9efaba106e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Product Inquiry</sys_name>
+        <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Luco Case Management">5afe2bce93073110a1f53c9efaba10bc</sys_scope>
+        <sys_update_name>sn_templated_snip_note_template_0b5e8eba93ab7110a1f53c9efaba106e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 10:27:24</sys_updated_on>
+        <table>x_1090111_luco_cas_luco_case</table>
+    </sn_templated_snip_note_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=0b5e8eba93ab7110a1f53c9efaba106e"/>
+</record_update>
