@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_templated_snip_note_template">
+    <sn_templated_snip_note_template action="INSERT_OR_UPDATE">
+        <condition/>
+        <group_visibility/>
+        <html_script_body><![CDATA[<p>&nbsp;</p>
+<style>
+  	*{
+    	font-family: 'Roboto';font-size: 12px;
+	}
+</style>
+<p>Hi ${contact},</p>
+<p>&nbsp;</p>
+<p>We want to inform you that we'll be performing scheduled maintenance on [Date/Time]. During this period, [Product Name] may experience temporary downtime. We apologize for any inconvenience and appreciate your understanding.</p>
+<p>&nbsp;</p>
+<p>Best regards,</p>
+<p>${assigned_to.first_name}</p>
+<p>${assigned_to.title}</p>
+<p>Luco Helpdesk Customer Support Team</p>
+<p>&nbsp;</p>]]></html_script_body>
+        <name>System Downtime Notification</name>
+        <short_name>system_downtime</short_name>
+        <sys_class_name>sn_templated_snip_note_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-09 10:07:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ce14fe76936f7110a1f53c9efaba10f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>System Downtime Notification</sys_name>
+        <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Luco Case Management">5afe2bce93073110a1f53c9efaba10bc</sys_scope>
+        <sys_update_name>sn_templated_snip_note_template_ce14fe76936f7110a1f53c9efaba10f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 10:24:59</sys_updated_on>
+        <table>x_1090111_luco_cas_luco_case</table>
+    </sn_templated_snip_note_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=ce14fe76936f7110a1f53c9efaba10f8"/>
+</record_update>
