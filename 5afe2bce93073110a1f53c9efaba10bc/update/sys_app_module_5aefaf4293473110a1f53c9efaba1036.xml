@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Luco Case Management">5aefe34293473110a1f53c9efaba1002</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1090111_luco_cas_luco_case</name>
+        <order>2</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 10:00:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5aefaf4293473110a1f53c9efaba1036</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Luco Case Management">5afe2bce93073110a1f53c9efaba10bc</sys_scope>
+        <sys_update_name>sys_app_module_5aefaf4293473110a1f53c9efaba1036</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-17 09:17:13</sys_updated_on>
+        <timeline_page/>
+        <title>Create New</title>
+        <uncancelable>false</uncancelable>
+        <view_name>default</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>
