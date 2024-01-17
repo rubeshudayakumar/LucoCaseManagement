@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>sysverb_new</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>new CSMUIActionUtils().canCreateCase(current.getTableName())  &amp;&amp; !RP.getListControl().isOmitNewButton() &amp;&amp; !RP.isRelatedList()</condition>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>New</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var uri = action.getGlideURI();
+if(action.getURLParameter("sysparm_view") == "major_case"){
+	action.setRedirectURL("sn_customerservice_case.do?sys_id=-1&sysparm_view=default&sysparm_template=major_case_candidate&sysparm_view=default");	
+}
+else if(gs.hasRole('sn_csm_ocs.ext_agent') && !gs.hasRole('admin')){
+		action.setRedirectURL("sn_customerservice_case.do?sys_id=-1&sysparm_query=active=true&sysparm_stack=sn_customerservice_case_list.do?sysparm_query=active=true&sysparm_view=default");
+}
+else{
+	if ((gs.hasRole('sn_customerservice.relationship_agent') || gs.hasRole('sn_esm_location_agent')) && !gs.hasRole('admin') && !gs.hasRole('sn_esm_agent')) {
+		// For Paris, order case is not supported for location and relationship agents OOB
+		action.setRedirectURL("sn_customerservice_case.do?sys_id=-1&sysparm_query=active=true&sysparm_stack=sn_customerservice_case_list.do?sysparm_query=active=true&sysparm_view=default");
+	} else {
+		var path = uri.getFileFromPath() + '';
+		path = path.substring(0, path.length - 5) + '.do';
+
+		uri.set('sys_id', '-1');
+		uri.set('sysparm_view', 'default');
+		path = checkWizard(uri, path);
+		if (path) {
+			action.setRedirectURL(uri.toString(path));
+			action.setNoPop(true);
+		}
+		else
+			action.setRedirectURL("sn_customerservice_case.do?sys_id=-1&sysparm_query=active=true&sysparm_view=default");
+	}	
+}
+
+function checkWizard(uri, path) {
+	var already = uri.get('WIZARD:action');
+
+	if (already == 'follow')
+		return null;
+
+	var wizID = new GlideappWizardIntercept(path).get();
+	if (!wizID)
+		return path;
+
+	uri.set('sysparm_parent', wizID);
+	uri.set('sysparm_referring_url', uri.toString());
+	return 'wizard_view.do';
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-17 09:32:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2a6837d5933f7d10a1f53c9efaba1096</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>New</sys_name>
+        <sys_overrides display_value="New">c240a284c32102003a657bfaa2d3ae83</sys_overrides>
+        <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Luco Case Management">5afe2bce93073110a1f53c9efaba10bc</sys_scope>
+        <sys_update_name>sys_ui_action_2a6837d5933f7d10a1f53c9efaba1096</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-17 09:41:27</sys_updated_on>
+        <table>x_1090111_luco_cas_luco_case</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>
