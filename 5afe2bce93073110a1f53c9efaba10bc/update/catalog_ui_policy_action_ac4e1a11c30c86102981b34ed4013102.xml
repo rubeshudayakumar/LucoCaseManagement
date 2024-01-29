@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Luco Helpdesk Case">539cc1d5c34486102981b34ed4013193</catalog_item>
+        <catalog_variable>IO:8cbec559c34486102981b34ed40131b6</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>200</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-29 13:11:52</sys_created_on>
+        <sys_id>ac4e1a11c30c86102981b34ed4013102</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>category</sys_name>
+        <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Luco Case Management">5afe2bce93073110a1f53c9efaba10bc</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_ac4e1a11c30c86102981b34ed4013102</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-29 13:12:21</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make Description mandatory when set to true">8e531911c38486102981b34ed401313a</ui_policy>
+        <variable>category</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>
