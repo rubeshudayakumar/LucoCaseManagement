@@ -15,22 +15,41 @@
         return;
     }
 
-	g_form.clearOptions('subcategory');
+    g_form.clearOptions('subcategory');
 
-    var choiceFetcher = new GlideAjax('ChoiceFetcher');
-    choiceFetcher.addParam('sysparm_name', 'getChoicesWithDependent');
-	choiceFetcher.addParam('sysparm_category',g_form.getValue('category'));
-	choiceFetcher.getXMLAnswer(getResponse);
+    if (g_form.getValue('category') == '7' || g_form.getValue('category') == '8') {
+        g_form.addOption('subcategory', '', '-- None --');
+        g_form.addOption('subcategory', '25', 'Customer Module Demo',1);
+        g_form.addOption('subcategory', '26', 'Invoice Module Demo',2);
+        g_form.addOption('subcategory', '27', 'Products Module Demo',3);
+        g_form.addOption('subcategory', '28', 'Emails Module Demo',4);
+        g_form.addOption('subcategory', '29', 'Transactions Module Demo',5);
+        g_form.addOption('subcategory', '30', 'Refunds Module Demo',6);
+        g_form.addOption('subcategory', '31', 'Coupons Module Demo',7);
+        g_form.addOption('subcategory', '32', 'Accounts Module Demo',8);
+    } else {
+        var choiceFetcher = new GlideAjax('ChoiceFetcher');
+        choiceFetcher.addParam('sysparm_name', 'getChoicesWithDependent');
+        choiceFetcher.addParam('sysparm_category', g_form.getValue('category'));
+        choiceFetcher.getXMLAnswer(function(answer) {
+            var data = JSON.parse(answer);
 
-    function getResponse(answer) {
-		var data = JSON.parse(answer);
+			g_form.addOption('subcategory', '', '-- None --',0);
+            for (var i = 0; i < data.length; i++) {
+                g_form.addOption('subcategory', data[i].value, data[i].label,i+1);
+            }
+            
 
-		for(var i = 0; i < data.length; i++){
-			g_form.addOption('subcategory',data[i].value,data[i].label);
-		}
-		g_form.addOption('subcategory', '', '-- None --');
-
+            if (g_form.getValue('category') == '') {
+                g_form.clearOptions('subcategory');
+                g_form.addOption('subcategory', '', '-- None --');
+            }
+        });
     }
+
+
+
+
 
     //Type appropriate comment here, and begin script below
 
@@ -41,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>febd4a4a933f3150a1f53c9efaba105f</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name>populate choice on category change</sys_name>
         <sys_overrides/>
         <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
@@ -49,7 +68,7 @@
         <sys_scope display_value="Luco Case Management">5afe2bce93073110a1f53c9efaba10bc</sys_scope>
         <sys_update_name>sys_script_client_febd4a4a933f3150a1f53c9efaba105f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-19 11:11:53</sys_updated_on>
+        <sys_updated_on>2024-02-08 17:02:43</sys_updated_on>
         <table>x_1090111_luco_cas_luco_case</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
