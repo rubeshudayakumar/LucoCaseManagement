@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Luco Subscriptions">32305f75c3044a102981b34ed401318c</sc_cat_item>
+        <sc_catalog display_value="Customer Service">65bcd377c3011200b12d9f2974d3aea0</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>mukeshkhanna.pandidurai</sys_created_by>
+        <sys_created_on>2024-01-31 06:11:20</sys_created_on>
+        <sys_id>38411ff5c3044a102981b34ed401317e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Service.Luco Subscriptions</sys_name>
+        <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Luco Case Management">5afe2bce93073110a1f53c9efaba10bc</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_38411ff5c3044a102981b34ed401317e</sys_update_name>
+        <sys_updated_by>mukeshkhanna.pandidurai</sys_updated_by>
+        <sys_updated_on>2024-01-31 06:11:20</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

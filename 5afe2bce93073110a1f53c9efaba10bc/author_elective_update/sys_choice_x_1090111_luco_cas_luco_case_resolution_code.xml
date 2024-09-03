@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-12-19 10:35:22</sys_created_on>
-            <sys_id>1d51b6c493177910a1f53c9efaba10ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>resolution_code</sys_name>
             <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2023-12-19 10:35:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9551b6c493177910a1f53c9efaba10ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-12-19 10:35:22</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2023-12-19 10:35:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9551364893177910a1f53c9efaba1015</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-12-19 10:35:22</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2023-12-19 10:35:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5951364893177910a1f53c9efaba101d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-12-19 10:35:22</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2023-12-19 10:35:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1d51364893177910a1f53c9efaba1025</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-12-19 10:35:22</sys_updated_on>

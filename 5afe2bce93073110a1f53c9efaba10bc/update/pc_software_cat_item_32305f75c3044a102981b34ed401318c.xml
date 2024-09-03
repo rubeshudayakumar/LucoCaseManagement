@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pc_software_cat_item">
+    <pc_software_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <auto_created>true</auto_created>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Request Something">df8224483bc02300bfe04d72f3efc4b1</category>
+        <checked_out/>
+        <cost>83125.12</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><span style="list-style-type: decimal;">Luco Subscriptions simplifies subscription billing with its user-friendly software solution.</span></p>
+<ul style="list-style-position: inside;"><li>Can Manage Customer Information.</li><li>Automate Billing Cycles</li><li>Tax Compliance</li><li>Auto Payment with secure payment gateway.</li><li>Robust Dunning Management</li><li>Customer Portal</li><li>Recurring Billing</li><li>Metered Billing</li></ul>
+<p> </p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <features/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model display_value="Luco India Private Limited Luco Subscriptions">d9d94024935fb910a1f53c9efaba10c8</model>
+        <name>Luco Subscriptions</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Mukeshkhanna Pandidurai">1105ff4a93473110a1f53c9efaba1052</owner>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=32305f75c3044a102981b34ed401318c&amp;sysparm_preview=true", "summary");</preview>
+        <price>990.7032</price>
+        <product_id/>
+        <published_ref/>
+        <recurring_frequency/>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>65bcd377c3011200b12d9f2974d3aea0,e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <specs/>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>pc_software_cat_item</sys_class_name>
+        <sys_created_by>mukeshkhanna.pandidurai</sys_created_by>
+        <sys_created_on>2024-01-31 06:06:49</sys_created_on>
+        <sys_id>32305f75c3044a102981b34ed401318c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Luco Subscriptions</sys_name>
+        <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Luco Case Management">5afe2bce93073110a1f53c9efaba10bc</sys_scope>
+        <sys_update_name>pc_software_cat_item_32305f75c3044a102981b34ed401318c</sys_update_name>
+        <sys_updated_by>mukeshkhanna.pandidurai</sys_updated_by>
+        <sys_updated_on>2024-01-31 06:12:12</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <upc/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor display_value="Luco India Private Limited">57e90424935fb910a1f53c9efaba10b4</vendor>
+        <vendor_catalog_item/>
+        <version>4</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </pc_software_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=32305f75c3044a102981b34ed401318c"/>
+    <fx_price action="delete_multiple" query="id=32305f75c3044a102981b34ed401318c"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>83125.1152</amount>
+        <currency display_value="INR">INR</currency>
+        <field>price</field>
+        <id>32305f75c3044a102981b34ed401318c</id>
+        <parent/>
+        <reference_amount>1000</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>mukeshkhanna.pandidurai</sys_created_by>
+        <sys_created_on>2024-01-31 06:06:49</sys_created_on>
+        <sys_id>b2309fb5c3044a102981b34ed4013124</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mukeshkhanna.pandidurai</sys_updated_by>
+        <sys_updated_on>2024-01-31 06:06:49</sys_updated_on>
+        <table>pc_software_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (Luco Case)">72df2f4293473110a1f53c9efaba108c</button>
+        <item_parameter display_value="Luco Case assignment_group">f6df2f4293473110a1f53c9efaba108a</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 10:00:41</sys_created_on>
+        <sys_id>badf2f4293473110a1f53c9efaba108f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f6df2f4293473110a1f53c9efaba108a</sys_name>
+        <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Luco Case Management">5afe2bce93073110a1f53c9efaba10bc</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_badf2f4293473110a1f53c9efaba108f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 10:00:41</sys_updated_on>
+        <ui_parameter display_value="Assignment group">bedf2f4293473110a1f53c9efaba108d</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

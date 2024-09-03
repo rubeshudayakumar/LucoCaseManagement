@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="eb00f38293473110a1f53c9efaba1083" sys_domain="global" table="x_1090111_luco_cas_luco_case" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-13 10:01:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f00f38293473110a1f53c9efaba1097</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1090111_luco_cas_luco_case" name="x_1090111_luco_cas_luco_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">eb00f38293473110a1f53c9efaba1083</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1090111_luco_cas_luco_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">2300f38293473110a1f53c9efaba108d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-13 10:01:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-13 10:01:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f00f38293473110a1f53c9efaba10a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1090111_luco_cas_luco_case" name="x_1090111_luco_cas_luco_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">eb00f38293473110a1f53c9efaba1083</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1090111_luco_cas_luco_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">fb00f38293473110a1f53c9efaba10a3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-13 10:01:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-13 10:01:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3700f38293473110a1f53c9efaba10a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1090111_luco_cas_luco_case" name="x_1090111_luco_cas_luco_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">eb00f38293473110a1f53c9efaba1083</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1090111_luco_cas_luco_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">ff00f38293473110a1f53c9efaba109d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-13 10:01:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 06:14:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d1c28f393c7f510a1f53c9efaba10db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1090111_luco_cas_luco_case" name="x_1090111_luco_cas_luco_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">eb00f38293473110a1f53c9efaba1083</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1090111_luco_cas_luco_case" sys_domain="global" view="d42c04acd9313110cedf7dffddb48f64">451c28f393c7f510a1f53c9efaba1075</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 06:14:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1090111_luco_cas_luco_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-13 10:01:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb00f38293473110a1f53c9efaba1083</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1090111_luco_cas_luco_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Luco Case Management" source="x_1090111_luco_cas">5afe2bce93073110a1f53c9efaba10bc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Luco Case Management">5afe2bce93073110a1f53c9efaba10bc</sys_scope>
+            <sys_update_name>sys_ui_form_sections_eb00f38293473110a1f53c9efaba1083</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-13 10:01:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">d42c04acd9313110cedf7dffddb48f64</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
